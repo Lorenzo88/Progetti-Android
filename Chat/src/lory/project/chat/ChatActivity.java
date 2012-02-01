@@ -38,7 +38,7 @@ public class ChatActivity extends Activity {
 				// TODO Auto-generated method stub
 				text.append("ME: "+edit.getText().toString()+"\n");
 				Message msg = new Message();
-				msg.setTo("silvestri@ppl.eln.uniroma2.it");
+				msg.setTo("loreti@ppl.eln.uniroma2.it");
 				msg.setBody(edit.getText().toString());
 				connection.sendPacket(msg);
 			}
